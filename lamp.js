@@ -25,5 +25,6 @@ function quebrarLamp(){
 
 $ligar.addEventListener('click',ligarLamp)
 $desligar.addEventListener('click',desligarLamp)
+$lampada.addEventListener('mouseover',ligarLamp)
 $lampada.addEventListener('mouseleave',desligarLamp)
 $lampada,addEventListener('dblclick',quebrarLamp)
